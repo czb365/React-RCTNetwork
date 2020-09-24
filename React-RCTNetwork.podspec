@@ -8,7 +8,7 @@ require "json"
 
 version = "0.61.5"
 
-source = { :git => 'https://github.com/czb365/React-RCTNetwork.git' }
+source = { :git => 'https://github.com/rnPrivateSpec/React-RCTNetwork.git' }
 if version == '1000.0.0'
   # This is an unpublished version, use the latest commit hash of the react-native repo, which we’re presumably in.
   source[:commit] = `git rev-parse HEAD`.strip
